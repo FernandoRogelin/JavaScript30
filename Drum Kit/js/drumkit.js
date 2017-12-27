@@ -6,7 +6,7 @@ function removeTransition(e) {
 function playSound(e) {
   const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
   const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-  console.log(e);
+  console.log(key);
   if (!audio) return;
   key.classList.add('playing');
   audio.currentTime = 0;
