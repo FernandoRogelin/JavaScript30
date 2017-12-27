@@ -2,4 +2,4 @@
 
 - Curso de javascript30
 
-- Estudo
+- Fazer uma bateria utilizando HTML,CSS e JS
