@@ -22,15 +22,23 @@ body{
   display: inline;
   font-size: 1.5rem;
   margin: 10px;
+  transition: all .10s ease;
   width: 100px;
   text-align: center;
   text-shadow: 0 0 .5rem black;
+}
+
+.playing{
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
 }
 
 .sound{
   color: #ffc600;
   font-size: 1.2rem;
   text-transform: uppercase;
+  letter-spacing: .1rem;
 }
 
 kbd{
