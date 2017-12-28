@@ -12,6 +12,6 @@ function tocaSom(event) {
   audio.play();
 }
 
-const keys = Array.from(document.querySelectorAll('.key'));
+const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeEfeito));
 window.addEventListener('keydown', tocaSom);

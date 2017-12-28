@@ -4,28 +4,24 @@
 }
 
 body{
-  background: url("../img-capa-03.jpg") no-repeat;
+  background: url("../Carnaval-dos-Animais1.jpg") no-repeat;
   background-size: cover; 
 }
 
 .keys{
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
 }
 
 .key{
-  border: 3px solid;
-  border-radius: 10px;
-  display: inline;
   font-size: 1.5rem;
   margin: 10px;
   transition: all .10s ease;
   width: 100px;
   text-align: center;
-  text-shadow: 0 0 .5rem black;
 }
 
 .efeito{
