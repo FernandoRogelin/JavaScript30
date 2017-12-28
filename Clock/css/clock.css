@@ -39,3 +39,70 @@ body{
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
+
+.numeros{
+    position: absolute;
+    font-size: 35px;
+}
+
+.doze{
+    left: 50%;
+    bottom: 87%;
+    transform: translate(-50%, -2%);
+}
+
+.um{
+    left: 75%;
+    bottom: 80%;
+}
+
+.dois{
+    left: 94%;
+    bottom: 60%;
+}
+
+.quatro{
+    left: 94%;
+    bottom: 11%;
+}
+
+.cinco{
+    left: 75%;
+    top: 80%;
+}
+
+.sete{
+    top: 80%;
+    left: 18%;
+}
+
+.oito{
+    bottom: 11%;
+}
+
+.dez{
+    bottom: 60%;
+    left: -2%;
+}
+
+.onze{
+    bottom: 80%;
+    left: 16%;
+}
+
+.tres{
+    left: 99.8%;
+    bottom: 34%;
+}
+
+.seis{
+    left: 50%;
+    top: 89%;
+    transform: translateX(-50%);
+}
+
+.nove{
+    top: 50%;
+    right: 98%;
+    transform: translate(-50%, -110%);
+}
