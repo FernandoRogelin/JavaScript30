@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Playing with CSS</title>
+</head>
+<body>
+  <h2 class="titulo">Update CSS Variables with JS</h2>
+  <div class="container">
+    <label class="atributos" for="spacing">Spacing:</label>
+    <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+    
+    <label class="atributos" for="blur">Blur:</label>
+    <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label class="atributos" for="base">Base Color</label>
+    <input class="atributos color" type="color" name="base" value="#ffc600">
+  </div>
+
+  <div class="imagem">
+    <img class="img" src="http://unsplash.it/800/500?image=899">
+  </div>
+  
+
+  <script src="js/index.js"></script>
+</body>
+</html>

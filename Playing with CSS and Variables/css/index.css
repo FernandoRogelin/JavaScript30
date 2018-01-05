@@ -1,0 +1,42 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body{
+    background-image: url("../maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.atributos{
+    margin-left: 10px;
+    color: white;
+}
+
+.color{
+    width: 90px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.imagem{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
