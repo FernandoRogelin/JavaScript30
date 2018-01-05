@@ -14,7 +14,7 @@ body{
 }
 
 .relogio{
-    border: 20px solid white;
+    border: 20px solid burlywood;
     border-radius: 50%;
     width: 320px;
     height: 320px;
@@ -38,6 +38,23 @@ body{
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.segundos{
+    background: red;
+    width: 140px;
+    left: 20px;
+    border-radius: 20px;
+}
+
+.horas{
+    width: 110px;
+    left: 50px;
+}
+
+.minutos{
+    width: 150px;
+    left: 10px;
 }
 
 .numeros{
